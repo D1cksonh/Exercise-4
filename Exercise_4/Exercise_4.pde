@@ -1,7 +1,1 @@
-void setup() {
-  size(800,600);
-}
-
-void draw() {
- rect(width/2,height/2,50,50);
-}
+// you dont have to draw every single letter, just try and learn how to use PShape
