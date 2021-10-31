@@ -1,3 +1,5 @@
+//Just trying to learn how to use PShape and how to use the "drawing shape" tools in the tool bar
+
 PShape triangles, rectange;
 PImage letterA,letterC,letterE,letterF;
 
