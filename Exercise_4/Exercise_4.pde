@@ -1,15 +1,21 @@
-PShape triangles;  
-PShape rectange;
+PShape triangles, rectange;
+PImage a,c,e,f;
 
 void setup() {  
   size(800, 600);
   shape1();
   shape2();
+  a = loadImage("a.png");
+  c = loadImage("c.png");
+  e = loadImage("e.png");
+  f = loadImage("f.png");
 }
 
 void draw() {
+  background(255);
   shape(triangles);
   shape(rectange);
+  image(a,mouseX,600);
 }
 
 void shape1() {
