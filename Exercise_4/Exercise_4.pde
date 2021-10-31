@@ -5,10 +5,10 @@ void setup() {
   size(800, 600);
   shape1();
   shape2();
-  a = loadImage("a.png");
-  c = loadImage("c.png");
-  e = loadImage("e.png");
-  f = loadImage("f.png");
+  a = loadImage("a.jpg");
+  c = loadImage("c.jpg");
+  e = loadImage("e.jpg");
+  f = loadImage("f.jpg");
 }
 
 void draw() {
