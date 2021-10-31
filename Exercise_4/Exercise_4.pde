@@ -1,21 +1,24 @@
 PShape triangles, rectange;
-PImage a,c,e,f;
+PImage letterA,letterC,letterE,letterF;
 
 void setup() {  
   size(800, 600);
   shape1();
   shape2();
-  a = loadImage("a.jpg");
-  c = loadImage("c.jpg");
-  e = loadImage("e.jpg");
-  f = loadImage("f.jpg");
+  letterA = loadImage("a.jpg");
+  letterC = loadImage("c.jpg");
+  letterE = loadImage("e.jpg");
+  letterF = loadImage("f.jpg");
 }
 
 void draw() {
   background(255);
+  image(letterA,500,200,250,250);
+  image(letterC,100,400,250,250);
+  image(letterE,500,50,250,250);
+  image(letterF,500,400,250,250);
   shape(triangles);
   shape(rectange);
-  image(a,mouseX,600);
 }
 
 void shape1() {
